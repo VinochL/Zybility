@@ -1,0 +1,1 @@
+const supportRequestParams=new URLSearchParams(location.search),requestedRegion=supportRequestParams.get('region'),locationField=document.querySelector('[name="location"]');if(requestedRegion&&locationField&&!locationField.value)locationField.value=requestedRegion;
